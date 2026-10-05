@@ -13,7 +13,7 @@ Welcome to my engineering portfolio. I am a student at **Pärnu Koidula Gümnaas
 
 ##  Technical Skillset
 
-* **Hardware & PCB Design:** Schematic capture, multi-layer routing, component selection, signal integrity (KiCad, Altium).
+* **Hardware & PCB Design:** Schematic capture, multi-layer routing, component selection, signal integrity (KiCad).
 * **Firmware & Software:** C/C++, Python, embedded systems development, Git/GitHub source control.
 * **Robotics & Rapid Prototyping:** 3D printing (FDM tuning), sensor integration (I2C, SPI, Analog), basic control theory (PID loops).
 
