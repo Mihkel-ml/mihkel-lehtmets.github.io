@@ -5,24 +5,23 @@ permalink: /custom-drone/
 ---
 
 #  Custom Quadcopter Drone with Modular PCB
-**Status:** In Active Development 
-
-This sub-page tracks the build progression of a custom scratch-built quadcopter drone designed to test multi-layer PCB design concepts and lightweight physical frame optimization.
+**Status:** Stage 1 - Electronic Circuit Architecture 🛠_
 
 ---
 
-##  Development Timeline & Logs
+## Chronological Engineering Logs
 
-### Log 01: Frame Geometry & Schematic Capture
-* **Current Focus:** Simulating structural stress points on the 3D-printed chassis.
-* **Objective:** Balance structural rigidness to avoid rotor vibrational issues while shaving off as much material weight as possible.
-* **PCB Mapping:** Starting initial schematic capture blocks in KiCad to house power rails, flight computer components, and an Inertial Measurement Unit (IMU).
+###  Log 01: Schematic Mapping & Component Selection (Current)
+* **Goal:** Establish a baseline power delivery system capable of safely shifting 11.1V battery voltages down to 3.3V for the microprocessor.
+* **Component Milestones:** Selected an ultra-low-dropout (LDO) voltage regulator to maintain a clean voltage pool for the flight processor. Mapped the pinout mapping for an MPU6050 IMU accelerometer chip over an $I^2C$ communication block.
+* **Engineering Hurdles:** Balancing trace widths. The traces routing power to the drone motors must be significantly thicker than data lines to prevent the copper layout from overheating under heavy electrical load.
+
+###  Log 02: Footprint Planning & Multi-layer Strategy (Upcoming)
+* **
+
+###  Log 03: Manufacturing, Soldering, & Power Validation (Upcoming)
+* **
 
 ---
-
-##  Project Architecture
-* **Main Flight Processor:** ESP32 / STM32 Platform
-* **PCB Framework:** Custom multi-layer board layout designed in KiCad
-* **Chassis Design:** FDM 3D printed aerodynamic unibody structure
 
 [ Back to Home Page](../)
