@@ -3,37 +3,41 @@ layout: home
 title: Home
 ---
 
-Welcome to my engineering portfolio. I am a student at **Pärnu Koidula Gümnaasium** specializing in hardware design, robotics, and embedded software systems. I bridge the gap between physical PCB layout and firmware logic to build functional, closed-loop robotics devices.
+Welcome to my engineering portfolio. I am an electronics and robotics developer studying at **Pärnu Koidula Gümnaasium**. My work focuses on the intersection of embedded firmware architecture, multi-layer high-frequency PCB layout, and physical mechanics.
 
 ---
 
-##  Projects in Active Development
-
-###  Multi-Axis Robotic Arm with Inverse Kinematics
-*A desktop robotic arm built to explore coordinate-based object manipulation and spatial mathematics.*
-* **Technical Stack:** C++, Arduino IDE, KiCad PCB Layout, 3D Printing (FDM)
-* **Current Focus:** Drafting custom kinematic transformation algorithms to translate target 3D coordinate space inputs $(X,Y,Z)$ automatically into individual servo joint angles.
-*  **[Read Engineering Documentation & Logs](./robotic-arm)** 
+##  Active Engineering Frameworks
 
 ###  Custom Quadcopter Drone with Modular PCB
-*An autonomous, scratch-built drone featuring a fully custom-routed power and control flight board.*
-* **Technical Stack:** STMicroelectronics (STM32) or ESP32, KiCad, Multi-layer PCB Design, Fusion360 / 3D Printing
-* **Current Focus:** Simulating the structural integrity of the 3D-printed lightweight unibody frame, component layout, and routing the initial schematics for a custom flight-controller PCB with onboard IMU sensors.
-*  **[Read Engineering Documentation & Logs](./custom-drone)**
+*An autonomous, scratch-built drone featuring a fully custom-routed flight computer board.*
+* **Technical Stack:** STMicroelectronics (STM32), KiCad Layout, Fusion360, 3D Printing
+* **Current Focus:** Routing high-current power distribution rails alongside delicate IMU data lines on a custom PCB substrate.
+*  **[Read Engineering Logs & Schematic Progress](./custom-drone)**
+
+###  Native Desktop Telemetry Dashboard
+*A cross-platform native application built to intercept and graph high-speed sensor data directly over a USB Serial pipeline.*
+* **Technical Stack:** Python, PyQt6, PyQtGraph, PySerial
+* **Current Focus:** Constructing a rolling window data architecture that renders live 20Hz vector graphs without thermal or CPU throttling.
+*  **[Read Software & UI Architecture Logs](./telemetry-app)**
+
+###  Multi-Axis Robotic Arm with Inverse Kinematics
+*A desktop robotic arm built to translate vector coordinate math into physical multi-joint execution.*
+* **Technical Stack:** C++, Arduino Environment, KiCad, FDM 3D Printing
+* **Current Focus:** Drafting inverse kinematics (IK) scripts to calculate coordinate space changes on global Cartesian axes.
+*  **[Read Mathematical Modeling Logs](./robotic-arm)**
 
 ---
 
 ##  Technical Skillset
 
-* **Hardware & PCB Design:** Schematic capture, multi-layer routing, component selection, signal integrity (KiCad).
-* **Firmware & Software:** C/C++, Python, embedded systems development, Git/GitHub source control.
-* **Robotics & Rapid Prototyping:** 3D printing (FDM tuning), sensor integration (I2C, SPI, Analog), basic control theory (PID loops).
+* **Hardware & PCB Design:** Schematic capture, multi-layer routing, component isolation (KiCad).
+* **Firmware & Software:** Python (PyQt6/Data Visuals), C/C++, embedded systems optimization, Git source control.
+* **Mechanical Systems:** 3D printing parameter tuning, stress simulation, parametric CAD geometry.
 
 ---
 
 ##  Education & Background
 
-* **Pärnu Koidula Gümnaasium** (Current) — Focusing on advanced physics, mathematics, and engineering fundamentals.
+* **Pärnu Koidula Gümnaasium** (Current) — Advanced physics and mathematics track.
 * **Paikuse Kool** (Alumni)
-
----
