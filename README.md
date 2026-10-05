@@ -1,12 +1,12 @@
-# 🛠️ Mihkel Lehtmets - Engineering Portfolio Repository
+#  Mihkel Lehtmets - Engineering Portfolio Repository
 
 Welcome to the source repository for my engineering portfolio. This repository hosts the Jekyll source code for my website alongside my ongoing development projects in embedded systems, custom PCBs, and robotics.
 
-🌐 **Live Website:** [mihkel-lehtmets.github.io](https://github.io)
+ **Live Website:** [mihkel-lehtmets.github.io](https://mihkel-ml.github.io/mihkel-lehtmets.github.io/)
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 * `/index.md` - The front-facing landing page of my portfolio website.
 * `/_config.yml` - Site configuration, theme properties, and navigation settings.
@@ -15,7 +15,7 @@ Welcome to the source repository for my engineering portfolio. This repository h
 
 ---
 
-## 🔧 Local Development & Adjustments
+##  Local Development & Adjustments
 
 This site is powered by **Jekyll** and built natively using GitHub Pages with the **Minima** theme. 
 
@@ -24,4 +24,4 @@ To add an update log to a project:
 2. Append your markdown text or photos under the current layout header block.
 
 ---
-📬 **Professional Profiles:** [GitHub Profile](https://github.com)
+ **Professional Profiles:** [GitHub Profile](https://github.com)
