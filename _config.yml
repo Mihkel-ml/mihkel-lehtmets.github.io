@@ -1,0 +1,27 @@
+# Site settings
+title: "Your Name | Engineering Portfolio"
+author: "Your Name"
+email: "your.email@example.com"
+description: >- # This shows up in search engine results and social previews
+  Hardware design, robotics, and embedded firmware portfolio by a student at Pärnu Koidula Gümnaasium.
+
+# Build settings
+theme: minima
+
+# Minima theme specific configurations
+minima:
+  skin: dark # Options: light, dark, classic, solarized, solarized-dark (dark looks great for engineering!)
+  social_links:
+    github: yourusername # Just your GitHub username, not the full link
+    linkedin: your-linkedin-profile-slug 
+    # youtube: your-channel-id (Optional: add if you want a youtube icon)
+
+# Exclusions from the build process
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
