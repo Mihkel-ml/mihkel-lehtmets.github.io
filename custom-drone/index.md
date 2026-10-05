@@ -5,7 +5,7 @@ permalink: /custom-drone/
 ---
 
 #  Custom Quadcopter Drone with Modular PCB
-**Status:** Stage 1 - Electronic Circuit Architecture 🛠_
+**Status:** Stage 1 - Electronic Circuit Architecture _
 
 ---
 
