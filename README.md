@@ -21,6 +21,7 @@ Welcome to my engineering portfolio. I am a student at **Pärnu Koidula Gümnaas
 ---
 
 ##  Education & Background
-* **Pärnu Koidula Gümnaasium** (Estonia) 
+* **Pärnu Koidula Gümnaasium** (Estonia)
+* **Paikuse Kool** (Estonia)
 * Focusing on advanced physics, mathematics, and engineering fundamentals.
 
