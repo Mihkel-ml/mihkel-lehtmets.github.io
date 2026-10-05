@@ -1,27 +1,27 @@
----
-layout: home
-title: Home
----
+# 🛠️ Mihkel Lehtmets - Engineering Portfolio Repository
 
-Welcome to my engineering portfolio. I am a student at **Pärnu Koidula Gümnaasium** specializing in hardware design, robotics, and embedded software systems. I bridge the gap between physical PCB layout and firmware logic to build functional, closed-loop robotics devices.
+Welcome to the source repository for my engineering portfolio. This repository hosts the Jekyll source code for my website alongside my ongoing development projects in embedded systems, custom PCBs, and robotics.
 
----
-
-##  Featured Projects
+🌐 **Live Website:** [mihkel-lehtmets.github.io](https://github.io)
 
 ---
 
-##  Technical Skillset
+## 📁 Repository Structure
 
-* **Hardware & PCB Design:** Schematic capture, multi-layer routing, component selection, signal integrity (KiCad).
-* **Firmware & Software:** C/C++, Python, embedded systems development, Git/GitHub source control.
-* **Robotics & Rapid Prototyping:** 3D printing (FDM tuning), sensor integration (I2C, SPI, Analog), basic control theory (PID loops).
-
----
-
-##  Education & Background
-
-* **Pärnu Koidula Gümnaasium** (Current) — Focusing on advanced physics, mathematics, and engineering fundamentals.
-* **Paikuse Kool** (Alumni)
+* `/index.md` - The front-facing landing page of my portfolio website.
+* `/_config.yml` - Site configuration, theme properties, and navigation settings.
+* `/robotic-arm/` - Firmware sketches, kinematic logic, and development logs for the Robotic Arm project.
+* `/custom-drone/` - Schematic captures, PCB routing profiles, and frame geometry designs for the Custom Quadcopter project.
 
 ---
+
+## 🔧 Local Development & Adjustments
+
+This site is powered by **Jekyll** and built natively using GitHub Pages with the **Minima** theme. 
+
+To add an update log to a project:
+1. Navigate to the project's folder (e.g., `/robotic-arm/index.md`).
+2. Append your markdown text or photos under the current layout header block.
+
+---
+📬 **Professional Profiles:** [GitHub Profile](https://github.com)
